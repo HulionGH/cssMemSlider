@@ -111,6 +111,7 @@ label:hover .click {
 .slider-bottom {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0.3em;
 }
 
 .subtitles p {
@@ -121,7 +122,8 @@ label:hover .click {
   font-weight: 600;
   font-family: Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  font-size: calc(0.6em + 1.3vw);
+  font-size: calc(0.4em + 1.1vw);
+  padding-bottom: 0.1em;
 }
 
 .subtitles {
