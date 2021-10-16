@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>CSS Mem Slider</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main class="d-flex center">
+      <div>
+        <div class="slider d-flex column">
+          <div class="slider-inner">
+            <input type="radio" name="switch" id="btn1" checked />
+            <input type="radio" name="switch" id="btn2" />
+            <input type="radio" name="switch" id="btn3" />
+            <input type="radio" name="switch" id="btn4" />
+            <input type="radio" name="switch" id="btn5" />
+
+            <div class="slides">
+              <img class="mem" src="./assets/mem1.jpg" alt="1" />
+              <img class="mem" src="./assets/mem2.jpg" alt="2" />
+              <img class="mem" src="./assets/mem3.jpeg" alt="3" />
+              <img class="mem" src="./assets/mem4.jpg" alt="4" />
+              <img class="mem" src="./assets/mem5.jpg" alt="5" />
+            </div>
+            <div class="switch">
+              <label for="btn1"></label>
+              <label for="btn2"></label>
+              <label for="btn3"></label>
+              <label for="btn4"></label>
+              <label for="btn5"></label>
+            </div>
+            <div class="titles-controls">
+              <div class="subtitles">
+                <div><p id="text1">Mem 1</p></div>
+                <div><p id="text2">Mem 2</p></div>
+                <div><p id="text3">Mem 3</p></div>
+                <div><p id="text4">Mem 4</p></div>
+                <div><p id="text5">Mem 5</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
